@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 134">
+  <!-- Fundo oval amarelo com borda azul escuro -->
+  <ellipse cx="100" cy="67" rx="94" ry="60" fill="#FFE600" stroke="#1B3FAB" stroke-width="9"/>
+
+  <!-- Aperto de mão — baseado no logo oficial do Mercado Livre Brasil -->
+  <g transform="translate(100,67)" fill="white">
+
+    <!-- Braço/punho direito (vindo da direita) -->
+    <rect x="28" y="-9" width="38" height="18" rx="8" fill="white"/>
+    <!-- Palma direita -->
+    <rect x="10" y="-13" width="24" height="26" rx="5" fill="white"/>
+
+    <!-- Dedos da mão direita -->
+    <rect x="4"  y="-26" width="10" height="18" rx="5" fill="white"/>
+    <rect x="15" y="-28" width="10" height="20" rx="5" fill="white"/>
+    <rect x="26" y="-27" width="10" height="19" rx="5" fill="white"/>
+
+    <!-- Braço/punho esquerdo (vindo da esquerda) -->
+    <rect x="-66" y="-9" width="38" height="18" rx="8" fill="white"/>
+    <!-- Palma esquerda -->
+    <rect x="-34" y="-13" width="24" height="26" rx="5" fill="white"/>
+
+    <!-- Dedos da mão esquerda -->
+    <rect x="-14" y="-26" width="10" height="18" rx="5" fill="white"/>
+    <rect x="-25" y="-28" width="10" height="20" rx="5" fill="white"/>
+    <rect x="-36" y="-27" width="10" height="19" rx="5" fill="white"/>
+
+    <!-- Zona de aperto central (overlap das palmas) -->
+    <rect x="-12" y="-10" width="24" height="20" rx="4" fill="white"/>
+  </g>
+</svg>
