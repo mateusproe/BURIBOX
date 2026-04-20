@@ -170,10 +170,10 @@ function ProductSection({ product: p, reverse }) {
                 className="prod-category-badge"
                 style={{ background: p.color }}
               >
-                {p.id === 'corte-vinco' && 'Personalizado'}
+                {p.id === 'corte-vinco' && 'Licitações & Personalizado'}
                 {p.id === 'maleta' && 'Estoque'}
                 {p.id === 'pizza' && 'Especialidade'}
-                {p.id === 'acessorios' && 'Acessórios'}
+                {p.id === 'acessorios' && '⭐ Especialidade'}
               </span>
 
               <h2 className="prod-name">{p.name}</h2>

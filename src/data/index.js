@@ -31,7 +31,7 @@ export const PRODUCTS = [
   {
     id: 'corte-vinco',
     name: 'Caixa Corte e Vinco',
-    tagline: 'Sob medida, única e com acabamento de excelência',
+    tagline: 'Sob medida, com acabamento de excelência — atendemos licitações',
     color: '#3D7B8C',
     images: [
       '/caixa corte e vinco.avif',
@@ -106,36 +106,35 @@ Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer taman
   },
   {
     id: 'acessorios',
-    name: 'Acessórios de Papelão',
-    tagline: 'Proteção e organização completa para o interior das embalagens',
+    name: 'Cantoneiras para Cama Box e Acessórios',
+    tagline: 'Especialistas em Cantoneiras para Cama Box — todas as medidas, preço justo',
     color: '#A89060',
     images: [
       '/cantoneira.png',
       '/acessorios.avif',
       '/Acessorios-de-papelao-ondulado-ommvng7z51p552gqtzeewb3kad2rsyzx6gx2gccvpw.avif',
     ],
-    desc: `Oferecemos a linha completa de acessórios em papelão ondulado para proteção e organização do conteúdo das embalagens. Todos os modelos podem ser fabricados em qualquer dimensão e qualidade conforme a necessidade do cliente.
+    desc: `Somos especializados em Cantoneiras para Cama Box. Fabricamos em todas as medidas, com qualidade garantida e preço de fábrica — atendemos indústrias de colchões, distribuidores, lojistas e licitações em todo o Brasil.
 
-Somos especializados em cantoneiras para Cama Box — temos todas as medidas e preço justo. Atendemos fábricas, distribuidores e lojistas de todo o Brasil.`,
+Além das cantoneiras, oferecemos a linha completa de acessórios em papelão ondulado: colmeias, berços, divisórias, calços e cintas — todos fabricados sob medida conforme a necessidade do cliente.`,
     features: [
-      'Especialistas em cantoneiras para Cama Box — todas as medidas',
-      'Colmeia: separa e protege produtos de choques',
-      'Berços: moldam e fixam o produto na caixa',
-      'Divisórias/Tabuleiros: separam conteúdo vertical e horizontalmente',
-      'Cantoneiras: protegem quinas de quadros, vidros, portas e camas',
-      'Calços e Cintas: calçam, separam e criam subespaços internos',
-      'Todos fabricados sob medida',
+      '⭐ Especialistas em Cantoneiras para Cama Box',
+      'Todas as medidas disponíveis — sob encomenda',
+      'Atendemos licitações, indústrias e distribuidores',
+      'Entrega para todo o Estado de SP e via Mercado Livre',
+      'Colmeia, Berços e Divisórias sob medida',
+      'Calços e Cintas para qualquer tipo de embalagem',
     ],
     subItems: [
-      { name: 'Cantoneiras para Cama Box', desc: 'Especializados em cantoneiras para Cama Box. Todas as medidas, preço justo e entrega para todo o Brasil.' },
+      { name: '⭐ Cantoneiras para Cama Box', desc: 'Nossa especialidade. Fabricamos em todas as medidas para indústrias de colchões, distribuidores e licitações. Preço justo direto da fábrica.' },
       { name: 'Colmeia', desc: 'Separa e protege produtos de choques e quebras. Mín. 4 espaçamentos por caixa.' },
       { name: 'Berços', desc: 'Moldam o produto e fixam dentro da caixa para que não se movimente.' },
-      { name: 'Divisórias', desc: 'Separam o conteúdo vertical ou horizontalmente.' },
+      { name: 'Divisórias', desc: 'Separam o conteúdo vertical ou horizontalmente dentro da embalagem.' },
       { name: 'Calços e Cintas', desc: 'Calçam, separam e criam subespaços internos de proteção.' },
     ],
     ondas: false,
     materiais: false,
-    wppMsg: 'Olá! Tenho interesse em Acessórios de Papelão e gostaria de um orçamento.',
+    wppMsg: 'Olá! Tenho interesse em Cantoneiras para Cama Box e gostaria de um orçamento.',
   },
 ]
 

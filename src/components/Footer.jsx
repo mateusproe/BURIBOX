@@ -68,7 +68,7 @@ export default function Footer() {
               <li><Link to="/produtos#corte-vinco">Caixa Corte e Vinco</Link></li>
               <li><Link to="/produtos#maleta">Caixa Maleta</Link></li>
               <li><Link to="/produtos#pizza">Caixas de Pizza</Link></li>
-              <li><Link to="/produtos#acessorios">Acessórios de Papelão</Link></li>
+              <li><Link to="/produtos#acessorios">Cantoneiras Cama Box & Acessórios</Link></li>
             </ul>
           </div>
 
