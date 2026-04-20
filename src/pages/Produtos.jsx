@@ -173,7 +173,7 @@ function ProductSection({ product: p, reverse }) {
                 {p.id === 'corte-vinco' && 'Licitações & Personalizado'}
                 {p.id === 'maleta' && 'Estoque'}
                 {p.id === 'pizza' && 'Especialidade'}
-                {p.id === 'acessorios' && '⭐ Especialidade'}
+                {p.id === 'acessorios' && 'Acessórios'}
               </span>
 
               <h2 className="prod-name">{p.name}</h2>

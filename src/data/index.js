@@ -35,7 +35,6 @@ export const PRODUCTS = [
     color: '#3D7B8C',
     images: [
       '/caixa corte e vinco.avif',
-      '/corte e vinco png.png',
       '/20250516_1145_Caixa com Acabamento Nítido_simple_compose_01jvcrwttkf5rvyjdg3xkdqd33.png',
     ],
     desc: `As caixas de papelão corte e vinco são embalagens sob medida e totalmente personalizadas, podendo ser confeccionadas em várias medidas, formatos e cortes, de modo que sua estrutura se ajuste ao produto a ser embalado. Seu acabamento é excelente, pois utilizamos facas feitas sob medida para cada projeto.
@@ -106,7 +105,7 @@ Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer taman
   },
   {
     id: 'acessorios',
-    name: 'Cantoneiras para Cama Box e Acessórios',
+    name: 'Acessórios de Papelão',
     tagline: 'Especialistas em Cantoneiras para Cama Box — todas as medidas, preço justo',
     color: '#A89060',
     images: [

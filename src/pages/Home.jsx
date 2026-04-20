@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 import {
   ArrowRight, ChevronRight, Shield, Award, Clock,
   Factory, Truck, Leaf, Users, Package,
-  HeartPulse, Pizza, ShoppingCart, Wheat, Thermometer, Utensils,
+  HeartPulse, Pizza, ShoppingCart, Wheat, Thermometer, Utensils, Landmark,
 } from 'lucide-react'
 import FadeIn from '../components/FadeIn'
 import Counter from '../components/Counter'
@@ -283,6 +283,12 @@ const SEGMENTS = [
     title: 'Logística & Distribuição',
     desc: 'Embalagens em qualquer volume para distribuidoras, transportadoras e operadores logísticos.',
     color: '#4A6B7C',
+  },
+  {
+    icon: <Landmark size={32} />,
+    title: 'Licitações Públicas',
+    desc: 'Atendemos prefeituras, órgãos públicos e distribuidores com qualidade, prazo e documentação completa.',
+    color: '#3D5A80',
   },
 ]
 

@@ -833,6 +833,13 @@ button { font-family: inherit; }
 .prod-section:nth-child(even) { background: var(--surface); }
 .prod-section:nth-child(odd)  { background: var(--cream); }
 
+/* Pizza — imagens e seção menores */
+#pizza.prod-section { padding-block: 48px; }
+#pizza .prod-img-slide { aspect-ratio: 5/4; max-height: 260px; }
+@media (min-width: 900px) {
+  #pizza .prod-img-slide { max-height: 220px; }
+}
+
 .prod-layout {
   display: grid;
   grid-template-columns: 1fr;
