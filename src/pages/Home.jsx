@@ -26,7 +26,7 @@ export default function Home() {
 // ─── Hero ─────────────────────────────────────────────────────────────────────
 function Hero() {
   return (
-    <section className="hero" aria-label="Apresentação BuriBox">
+    <section className="hero" aria-label="Apresentação Buribox">
 
       {/* Mosaico de fundo — 4 imagens cobrindo todo o hero */}
       <div className="hero-bg" aria-hidden="true">
@@ -66,14 +66,14 @@ function Hero() {
           </h1>
 
           <p className="hero-subtitle">
-            A BuriBox produz caixas e embalagens de papelão com padrão de
-            qualidade e preço de fábrica — com atuação em todo o Estado de SP
-            e entregas via Mercado Livre para todo o Brasil.
+            A Buribox produz Embalagens, Caixas de Papel e Papelão Ondulado,
+            personalizadas com sua medida e arte específica.
+            Alta qualidade e preço justo.
           </p>
 
           <div className="hero-actions">
             <a
-              href={wppLink('Olá BuriBox! Gostaria de um orçamento de embalagens.')}
+              href={wppLink('Olá Buribox! Gostaria de um orçamento de embalagens.')}
               target="_blank" rel="noreferrer"
               className="btn-whatsapp"
               style={{ fontSize: 15, padding: '14px 28px' }}
@@ -109,7 +109,7 @@ function Hero() {
 // ─── Stats ────────────────────────────────────────────────────────────────────
 function StatsBar() {
   return (
-    <section className="stats-bar" aria-label="Números BuriBox">
+    <section className="stats-bar" aria-label="Números Buribox">
       <div className="stats-grid">
         {STATS.map((s, i) => (
           <FadeIn key={i} delay={i * 0.08}>
@@ -210,7 +210,7 @@ function Features() {
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <FadeIn>
           <div className="section-header">
-            <span className="label label-amber">Por que a BuriBox?</span>
+            <span className="label label-amber">Por que a Buribox?</span>
             <h2 className="section-title title-white">Nossos diferenciais</h2>
             <p className="section-sub sub-light">
               Da fábrica ao cliente final — qualidade, agilidade e respeito ao meio ambiente.

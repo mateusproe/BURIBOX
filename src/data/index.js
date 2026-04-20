@@ -1,6 +1,6 @@
 // ─── Configuração global ──────────────────────────────────────────────────────
 export const SITE = {
-  name: 'BuriBox Embalagens',
+  name: 'Buribox Embalagens',
   tagline: 'Embalagens de Papelão Direto da Fábrica',
   whatsapp: '5515997711856',
   email: 'buribox@buribox.com.br',
@@ -12,7 +12,7 @@ export const SITE = {
   cnpj: '30.070.747/0001-87',
 }
 
-export const wppLink = (msg = 'Olá BuriBox! Gostaria de solicitar um orçamento.') =>
+export const wppLink = (msg = 'Olá Buribox! Gostaria de solicitar um orçamento.') =>
   `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(msg)}`
 
 // ─── Ondas disponíveis (compartilhado entre produtos) ─────────────────────────
@@ -35,13 +35,17 @@ export const PRODUCTS = [
     color: '#3D7B8C',
     images: [
       '/caixa corte e vinco.avif',
+      '/corte e vinco png.png',
       '/20250516_1145_Caixa com Acabamento Nítido_simple_compose_01jvcrwttkf5rvyjdg3xkdqd33.png',
     ],
     desc: `As caixas de papelão corte e vinco são embalagens sob medida e totalmente personalizadas, podendo ser confeccionadas em várias medidas, formatos e cortes, de modo que sua estrutura se ajuste ao produto a ser embalado. Seu acabamento é excelente, pois utilizamos facas feitas sob medida para cada projeto.
 
-É desenvolvida e fabricada para que seja única, podendo ser impressa com até duas cores pelo processo flexográfico, oferecendo suporte e qualidade para cada cliente.`,
+É desenvolvida e fabricada para que seja única, podendo ser impressa com até duas cores pelo processo flexográfico, oferecendo suporte e qualidade para cada cliente.
+
+Somos especializados em caixas para Licitações de Kit Escolar — atendemos prefeituras e distribuidores com qualidade, prazo e documentação completa.`,
     features: [
       'Embalagens sob medida para qualquer produto',
+      'Especialistas em caixas para Kit Escolar e Licitações',
       'Impressão em até 2 cores (flexografia)',
       'Facas de corte exclusivas para cada projeto',
       'Acabamento superior e preciso',
@@ -61,7 +65,7 @@ export const PRODUCTS = [
       '/ChatGPT Image 2 de jul. de 2025, 17_44_34.png',
       '/ChatGPT Image 2 de jul. de 2025, 17_53_14.png',
     ],
-    desc: `As caixas de papelão tipo maleta, mais conhecidas como caixa comum quadrada, são a melhor opção custo x benefício do mercado. Podemos fabricar em qualquer medida e em diferentes qualidades para atender a necessidade específica de cada cliente.
+    desc: `As caixas de papelão tipo maleta, mais conhecidas como caixa de papelão comum normal, são a melhor opção custo x benefício do mercado. Podemos fabricar em qualquer medida e em diferentes qualidades para atender a necessidade específica de cada cliente.
 
 Proporciona fácil armazenamento e fácil transporte, além de ajudar a proteger o produto durante todo o percurso. É muito usada para envio de encomendas via transportadora ou correios, sendo disponibilizada em 5 tipos de onda e diferentes materiais.`,
     features: [
@@ -85,11 +89,11 @@ Proporciona fácil armazenamento e fácil transporte, além de ajudar a proteger
       '/pp.png',
       '/pf.png',
     ],
-    desc: `A caixa de pizza, ótima para delivery, tem fundo resistente com verniz, protegendo contra a umidade da pizza e mantendo sua forte estrutura. A tampa pode ser personalizada na impressora flexografia (2 cores), ou na impressora fotográfica para um resultado ainda mais impactante.
+    desc: `A caixa de pizza, ótima para delivery, tem fundo pesado muito resistente, mantendo sua forte estrutura durante o transporte. A tampa pode ser personalizada na impressora flexografia (2 cores), ou na impressora fotográfica para um resultado ainda mais impactante.
 
 Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer tamanho de pizzaria ou negócio de delivery.`,
     features: [
-      'Fundo resistente com verniz antiúmidade',
+      'Fundo pesado muito resistente',
       'Formatos octogonal e quadrado',
       'Personalização em flexografia (2 cores)',
       'Impressão fotográfica disponível',
@@ -106,25 +110,27 @@ Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer taman
     tagline: 'Proteção e organização completa para o interior das embalagens',
     color: '#A89060',
     images: [
+      '/cantoneira.png',
       '/acessorios.avif',
       '/Acessorios-de-papelao-ondulado-ommvng7z51p552gqtzeewb3kad2rsyzx6gx2gccvpw.avif',
     ],
     desc: `Oferecemos a linha completa de acessórios em papelão ondulado para proteção e organização do conteúdo das embalagens. Todos os modelos podem ser fabricados em qualquer dimensão e qualidade conforme a necessidade do cliente.
 
-Aplicações: separação e proteção de garrafas, frascos, peças, vidros e embalagens dentro da caixa — acondicionamento seguro para transporte e armazenagem.`,
+Somos especializados em cantoneiras para Cama Box — temos todas as medidas e preço justo. Atendemos fábricas, distribuidores e lojistas de todo o Brasil.`,
     features: [
+      'Especialistas em cantoneiras para Cama Box — todas as medidas',
       'Colmeia: separa e protege produtos de choques',
       'Berços: moldam e fixam o produto na caixa',
       'Divisórias/Tabuleiros: separam conteúdo vertical e horizontalmente',
-      'Cantoneiras: protegem quinas de quadros, vidros, portas',
+      'Cantoneiras: protegem quinas de quadros, vidros, portas e camas',
       'Calços e Cintas: calçam, separam e criam subespaços internos',
       'Todos fabricados sob medida',
     ],
     subItems: [
+      { name: 'Cantoneiras para Cama Box', desc: 'Especializados em cantoneiras para Cama Box. Todas as medidas, preço justo e entrega para todo o Brasil.' },
       { name: 'Colmeia', desc: 'Separa e protege produtos de choques e quebras. Mín. 4 espaçamentos por caixa.' },
       { name: 'Berços', desc: 'Moldam o produto e fixam dentro da caixa para que não se movimente.' },
       { name: 'Divisórias', desc: 'Separam o conteúdo vertical ou horizontalmente.' },
-      { name: 'Cantoneiras', desc: 'Protegem as quinas de quadros, vidros, portas e outros produtos.' },
       { name: 'Calços e Cintas', desc: 'Calçam, separam e criam subespaços internos de proteção.' },
     ],
     ondas: false,
@@ -147,21 +153,21 @@ export const TESTIMONIALS = [
     name: 'Carlos M.',
     role: 'Gerente de Logística',
     company: 'Distribuidora Regional',
-    text: 'Trabalhamos com a BuriBox há mais de 5 anos. A qualidade é consistente e o atendimento é diferenciado. Nunca tivemos problemas com atrasos.',
+    text: 'Trabalhamos com a Buribox há mais de 5 anos. A qualidade é consistente e o atendimento é diferenciado. Nunca tivemos problemas com atrasos.',
     stars: 5,
   },
   {
     name: 'Ana P.',
     role: 'Proprietária',
     company: 'E-commerce de Moda',
-    text: 'As caixas personalizadas da BuriBox fazem toda a diferença na experiência do cliente. O unboxing ficou incrível e os feedbacks são ótimos.',
+    text: 'As caixas personalizadas da Buribox fazem toda a diferença na experiência do cliente. O unboxing ficou incrível e os feedbacks são ótimos.',
     stars: 5,
   },
   {
     name: 'Roberto S.',
     role: 'Diretor Comercial',
     company: 'Indústria Alimentícia',
-    text: 'Excelente parceiro. A BuriBox entende nossas necessidades e sempre entrega dentro do prazo. O preço de fábrica é um diferencial enorme.',
+    text: 'Excelente parceiro. A Buribox entende nossas necessidades e sempre entrega dentro do prazo. O preço de fábrica é um diferencial enorme.',
     stars: 5,
   },
 ]

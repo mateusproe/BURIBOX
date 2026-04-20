@@ -72,7 +72,7 @@ export default function Contato() {
 
                 {/* Redes Sociais */}
                 <div className="social-block">
-                  <p className="social-label">Siga a BuriBox</p>
+                  <p className="social-label">Siga a Buribox</p>
                   <div className="social-btns">
                     <a href={SITE.instagram} target="_blank" rel="noreferrer" className="social-btn">
                       <Instagram size={16} /> Instagram
@@ -91,7 +91,7 @@ export default function Contato() {
       {/* Mapa embed — sem API key */}
       <div className="map-wrapper">
         <iframe
-          title="BuriBox — Localização em Buri, SP"
+          title="Buribox — Localização em Buri, SP"
           src="https://maps.google.com/maps?q=Rua+Alipio+Nunes+de+Barros+879+Buri+SP+Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="380"
@@ -116,7 +116,7 @@ function ContactForm() {
   const onSubmit = (data) => {
     setSending(true)
     const msg = [
-      `*Novo Orçamento — BuriBox*`,
+      `*Novo Orçamento — Buribox*`,
       ``,
       `*Nome:* ${data.nome}`,
       data.empresa ? `*Empresa:* ${data.empresa}` : null,

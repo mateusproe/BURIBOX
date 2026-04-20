@@ -39,7 +39,7 @@ export default function Footer() {
               <div className="nav-logo-box" style={{ width: 32, height: 32 }}>
                 <BoxIcon />
               </div>
-              BuriBox
+              Buribox
             </Link>
             <p>
               Embalagens de papelão com qualidade industrial e preço de fábrica.
@@ -75,7 +75,7 @@ export default function Footer() {
           <div className="footer-col">
             <h3>Empresa</h3>
             <ul>
-              <li><Link to="/sobre">Sobre a BuriBox</Link></li>
+              <li><Link to="/sobre">Sobre a Buribox</Link></li>
               <li><Link to="/sobre">Nossa Missão</Link></li>
               <li><Link to="/sobre">Sustentabilidade</Link></li>
               <li><Link to="/contato">Contato</Link></li>
@@ -104,7 +104,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="footer-bottom">
-          <span>© {year} BuriBox Embalagens · CNPJ {SITE.cnpj}</span>
+          <span>© {year} Buribox Embalagens · CNPJ {SITE.cnpj}</span>
           <span>
             Desenvolvido por{' '}
             <a href="https://unadigital.dev" target="_blank" rel="noreferrer">Una Digital</a>

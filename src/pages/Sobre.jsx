@@ -13,7 +13,7 @@ export default function Sobre() {
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <FadeIn>
             <span className="label label-kraft">Conheça a empresa</span>
-            <h1 className="page-hero-title">Sobre a BuriBox</h1>
+            <h1 className="page-hero-title">Sobre a Buribox</h1>
             <p className="page-hero-sub">
               Mais de 15 anos fabricando embalagens de qualidade em Buri, SP —
               com responsabilidade ambiental e compromisso com o cliente.
@@ -69,7 +69,7 @@ export default function Sobre() {
                 </h2>
 
                 <p className="body-text">
-                  A BuriBox nasceu em 2011 com um compromisso simples: produzir e
+                  A Buribox nasceu em 2011 com um compromisso simples: produzir e
                   comercializar embalagens de papelão com qualidade, satisfazendo
                   as necessidades de cada cliente. Com fábrica própria em Buri/SP,
                   garantimos controle total da produção — do papelão bruto à
@@ -179,7 +179,7 @@ export default function Sobre() {
                   Compromisso com<br />o Meio Ambiente
                 </h2>
                 <p style={{ color: 'rgba(255,255,255,0.70)', fontSize: 16, lineHeight: 1.75, marginBottom: 24 }}>
-                  Na BuriBox, sustentabilidade não é só discurso. Trabalhamos com
+                  Na Buribox, sustentabilidade não é só discurso. Trabalhamos com
                   papelão reciclado e reciclável em toda a nossa linha de produção,
                   reduzindo o impacto ambiental da cadeia produtiva e contribuindo
                   para um futuro mais consciente.
@@ -206,12 +206,12 @@ export default function Sobre() {
               padding: '40px 36px',
             }}>
               <div className="cta-text">
-                <h2 style={{ color: 'var(--text)' }}>Quer conhecer mais sobre a BuriBox?</h2>
+                <h2 style={{ color: 'var(--text)' }}>Quer conhecer mais sobre a Buribox?</h2>
                 <p style={{ color: 'var(--text-muted)' }}>Entre em contato com nossa equipe. Teremos prazer em atendê-lo.</p>
               </div>
               <div className="cta-actions">
                 <a
-                  href={wppLink('Olá! Gostaria de saber mais sobre a BuriBox.')}
+                  href={wppLink('Olá! Gostaria de saber mais sobre a Buribox.')}
                   target="_blank" rel="noreferrer"
                   className="btn-whatsapp"
                 >

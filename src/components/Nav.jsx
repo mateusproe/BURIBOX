@@ -46,10 +46,10 @@ export default function Nav() {
           <div className="nav-inner">
 
             {/* Logo */}
-            <Link to="/" className="nav-logo" aria-label="BuriBox — página inicial">
+            <Link to="/" className="nav-logo" aria-label="Buribox — página inicial">
               <img
                 src="/logo (2).png"
-                alt="BuriBox Embalagens"
+                alt="Buribox Embalagens"
                 className="nav-logo-img"
               />
             </Link>
