@@ -838,6 +838,7 @@ button { font-family: inherit; }
 #pizza .prod-img-slide { aspect-ratio: 4/3; }
 @media (min-width: 900px) {
   #pizza .prod-img-slide { aspect-ratio: unset; max-height: none; }
+  #pizza .prod-img-slide:nth-child(2) { display: none; }
 }
 
 .prod-layout {
