@@ -266,12 +266,7 @@ const SEGMENTS = [
     desc: 'Embalagens para qualquer produto industrial ou manufaturado — moveleiro, doméstico e demais setores.',
     color: '#6E7E82',
   },
-  {
-    icon: <HeartPulse size={32} />,
-    title: 'Saúde & Hospitalar',
-    desc: 'Caixas personalizadas para acondicionar e transportar qualquer produto da área da saúde.',
-    color: '#A8402E',
-  },
+
   {
     icon: <Wheat size={32} />,
     title: 'Agronegócio',
