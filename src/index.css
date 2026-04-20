@@ -833,11 +833,11 @@ button { font-family: inherit; }
 .prod-section:nth-child(even) { background: var(--surface); }
 .prod-section:nth-child(odd)  { background: var(--cream); }
 
-/* Pizza — imagens e seção menores */
-#pizza.prod-section { padding-block: 48px; }
-#pizza .prod-img-slide { aspect-ratio: 5/4; max-height: 260px; }
+/* Pizza — mobile menor, desktop preenche altura do texto */
+#pizza.prod-section { padding-block: 56px; }
+#pizza .prod-img-slide { aspect-ratio: 4/3; }
 @media (min-width: 900px) {
-  #pizza .prod-img-slide { max-height: 220px; }
+  #pizza .prod-img-slide { aspect-ratio: unset; max-height: none; }
 }
 
 .prod-layout {
