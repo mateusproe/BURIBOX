@@ -88,7 +88,7 @@ export default function Produtos() {
                   target="_blank" rel="noreferrer"
                   className="btn-whatsapp"
                 >
-                  <WppIcon /> Falar com Especialista
+                  <WppIcon /> Falar com a Equipe
                 </a>
               </div>
             </div>
@@ -170,7 +170,7 @@ function ProductSection({ product: p, reverse }) {
                 className="prod-category-badge"
                 style={{ background: p.color }}
               >
-                {p.id === 'corte-vinco' && 'Licitações & Personalizado'}
+                {p.id === 'corte-vinco' && 'Personalizado'}
                 {p.id === 'maleta' && 'Estoque'}
                 {p.id === 'pizza' && 'Especialidade'}
                 {p.id === 'acessorios' && 'Acessórios'}

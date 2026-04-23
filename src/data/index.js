@@ -31,7 +31,7 @@ export const PRODUCTS = [
   {
     id: 'corte-vinco',
     name: 'Caixa Corte e Vinco',
-    tagline: 'Sob medida, com acabamento de excelência — atendemos licitações',
+    tagline: 'Sob medida, única e com acabamento de excelência',
     color: '#3D7B8C',
     images: [
       '/caixa corte e vinco.avif',
@@ -44,7 +44,7 @@ export const PRODUCTS = [
 Somos especializados em caixas para Licitações de Kit Escolar — atendemos prefeituras e distribuidores com qualidade, prazo e documentação completa.`,
     features: [
       'Embalagens sob medida para qualquer produto',
-      'Especialistas em caixas para Kit Escolar e Licitações',
+      'Atendemos licitações de prefeituras e órgãos públicos',
       'Impressão em até 2 cores (flexografia)',
       'Facas de corte exclusivas para cada projeto',
       'Acabamento superior e preciso',
@@ -106,7 +106,7 @@ Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer taman
   {
     id: 'acessorios',
     name: 'Acessórios de Papelão',
-    tagline: 'Especialistas em Cantoneiras para Cama Box — todas as medidas, preço justo',
+    tagline: 'Especializados em Cantoneiras para Cama Box — todas as medidas, preço justo',
     color: '#A89060',
     images: [
       '/cantoneira.png',
@@ -117,7 +117,7 @@ Temos caixa de pizza nos formatos octogonal e quadrado, atendendo qualquer taman
 
 Além das cantoneiras, oferecemos a linha completa de acessórios em papelão ondulado: colmeias, berços, divisórias, calços e cintas — todos fabricados sob medida conforme a necessidade do cliente.`,
     features: [
-      '⭐ Especialistas em Cantoneiras para Cama Box',
+      '⭐ Especializados em Cantoneiras para Cama Box',
       'Todas as medidas disponíveis — sob encomenda',
       'Atendemos licitações, indústrias e distribuidores',
       'Entrega para todo o Estado de SP e via Mercado Livre',
@@ -125,7 +125,7 @@ Além das cantoneiras, oferecemos a linha completa de acessórios em papelão on
       'Calços e Cintas para qualquer tipo de embalagem',
     ],
     subItems: [
-      { name: '⭐ Cantoneiras para Cama Box', desc: 'Nossa especialidade. Fabricamos em todas as medidas para indústrias de colchões, distribuidores e licitações. Preço justo direto da fábrica.' },
+      { name: '⭐ Cantoneiras para Cama Box', desc: 'Somos especializados em cantoneiras para Cama Box. Fabricamos em todas as medidas para indústrias de colchões, distribuidores e lojistas. Preço justo direto da fábrica.' },
       { name: 'Colmeia', desc: 'Separa e protege produtos de choques e quebras. Mín. 4 espaçamentos por caixa.' },
       { name: 'Berços', desc: 'Moldam o produto e fixam dentro da caixa para que não se movimente.' },
       { name: 'Divisórias', desc: 'Separam o conteúdo vertical ou horizontalmente dentro da embalagem.' },
@@ -141,7 +141,7 @@ Além das cantoneiras, oferecemos a linha completa de acessórios em papelão on
 export const STATS = [
   { n: 15, suf: '+', label: 'Anos de\nexperiência' },
   { n: 500, suf: '+', label: 'Clientes\natendidos' },
-  { n: 48, suf: 'h', label: 'Prazo médio\nde entrega' },
+  { n: 7, suf: ' dias', label: 'Prazo médio\nde entrega' },
   { n: 100, suf: '%', label: 'Fábrica Própria\natendendo qualquer demanda' },
 ]
 
